@@ -21,3 +21,9 @@ for x in range(1,500000,2):
 for x in range(2018, 0, -4):
     print(x)
 # Flexible Counter
+lowNum = 1
+highNum = 100
+mult = 7
+for x in range(lowNum, highNum):
+    if x % mult == 0:
+        print(x)
