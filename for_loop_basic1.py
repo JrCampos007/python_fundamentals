@@ -13,5 +13,9 @@ for x in range (1,101):
     else:
         print(x)
 # Whoa. That Sucker's Huge
+y = 0
+for x in range(1,500000,2):
+    y = y + x
+    print(y)
 # Countdown by Fours
 # Flexible Counter
