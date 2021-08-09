@@ -29,3 +29,10 @@ def values_greater_than_second(a):
     print(count)
     return(lis)
 print(values_greater_than_second([5,2,3,1,4,5]))
+# This length, this value
+def length_and_value(a,b):
+    lis = []
+    for x in range(a):
+        lis.append(b)
+    return lis
+print(length_and_value(6,3))
