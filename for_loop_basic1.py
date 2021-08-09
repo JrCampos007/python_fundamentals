@@ -18,4 +18,6 @@ for x in range(1,500000,2):
     y = y + x
     print(y)
 # Countdown by Fours
+for x in range(2018, 0, -4):
+    print(x)
 # Flexible Counter
