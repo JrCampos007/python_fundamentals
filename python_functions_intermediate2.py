@@ -27,7 +27,19 @@ print(z)
 
 #######################################################################
 # 2. Iterate Through a List of Dictionaries
-
+students = [
+    {'first_name':  'Michael', 'last_name' : 'Jordan'},
+    {'first_name' : 'John', 'last_name' : 'Rosales'},
+    {'first_name' : 'Mark', 'last_name' : 'Guillen'},
+    {'first_name' : 'KB', 'last_name' : 'Tonel'}
+]
+def iterateDictionary(lis):
+    for x in range(len(lis)):
+        fn = lis[x]['first_name']
+        ln = lis[x]['last_name']
+        print("first_name - " + fn + ", last_name - "+ ln)
+    return
+iterateDictionary(students)
 
 #######################################################################
 # 3. Get Values From a List of Dictionaries
