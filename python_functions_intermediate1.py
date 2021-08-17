@@ -33,7 +33,7 @@ print('integer between 50 and 500: ', randInt(min=50, max=500), '\n')
 import random
 def randInt(min=0, max=100):
     if min > max:
-        print('you are not very good at this')
+        print('Try a different min number (min cannot be greater than max)')
         return
     num = random.random() * (max-min) + min
     return round(num)
@@ -42,7 +42,7 @@ print('edge case min>max: ', randInt(min=10, max=5), '\n')
 import random
 def randInt(min=0, max=100):
     if max < 0:
-        print('you are not very good at this')
+        print('Try a higher max number')
         return
     num = random.random() * (max-min) + min
     return round(num)
