@@ -43,7 +43,12 @@ iterateDictionary(students)
 
 #######################################################################
 # 3. Get Values From a List of Dictionaries
-
+def iterateDictionary2(key_name, some_list):
+    for x in range(len(some_list)):
+        val = some_list[x][key_name]
+        print(val)
+iterateDictionary2('first_name', students)
+iterateDictionary2('last_name', students)
 
 
 #######################################################################
